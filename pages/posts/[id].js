@@ -34,7 +34,9 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+        <h1 className={utilStyles.headingXl}>
+          {postData.title} Vercel 변경 PR 테스트
+        </h1>
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>
