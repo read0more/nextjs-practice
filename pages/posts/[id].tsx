@@ -34,7 +34,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const paths = getAllPostIds();
   return {
     paths,
-    fallback: true, // false로 하면 기본 404페이지로
+    fallback: false,
   };
 };
 
